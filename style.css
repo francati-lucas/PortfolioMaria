@@ -1,0 +1,284 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    margin: 40px 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#menu {
+    text-align: end;
+    margin-top: 49px;
+    margin-right: 98px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#headerCta p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#headerCta h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+
+}
+
+#buttonCta {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    padding: 14px 25px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#buttonCta:hover {
+    background-color: #0f4592;
+    transform: translateY(-10px);
+}
+
+#button {
+    margin-top: 40px;
+}
+
+#headerImg {
+    margin-left: 42px;
+}
+
+#clients {
+    margin: 50px 0;
+}
+
+.clientesText {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clientes {
+    text-align: center;
+}
+
+.Serviços {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Serviços h4 {
+    color: #F75C4E;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.Serviços h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.Serviços p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.textCenter {
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.2);
+    width: 90%;
+    border-radius: 30px;
+    padding: 50px 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.textCenter:hover {
+    transform: translateY(-15px);
+    background-color: black;
+    color: white;
+}
+
+.textCenter h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.textCenter p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+#dinheiro {
+    margin: 100px 0;
+}
+
+.formMoney h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F75C4E;
+    margin:63px 0 10px 0;
+}
+
+.formMoney h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.formMoney p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.formMoney input {
+    width: 406px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(136, 135, 135, 0.1) ;
+    padding: 0 20px;
+    margin-bottom: 25px;
+
+}
+
+.button2{
+    width: 160px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color:#1F7CFF ;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button2:hover {
+    background-color: #0f4592;
+    transform: translateY(-10px);
+}
+
+.work h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F75C4E;
+}
+
+.work h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#portImg{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* opcional, centraliza conteúdo */
+    gap: 20px; /* espaço entre imagem e botão */
+}
+
+.btn{
+    background-color: #1F7CFF;
+    color:#FFF;
+    width:170px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #0f4592;
+    cursor: pointer;
+    transform: translateY(-10px)
+}
+
+.port img{
+    border: rgba(85, 85, 85, 0.233) 1px solid;
+    border-radius: 15px;
+}
